@@ -8,3 +8,5 @@
 To implement the bomb, MultiSphereTraceByChannel is used. Through this a blocking hit is detected and everything between the blocking hit and the start of the trace is destroyed. This also allows beam target location of the particle effect of the spark to be set to the blocking hit location.
 
 The enemies start by moving to a new random location in navigable area. They either succeed or fail. In both the cases, they wait for 2 seconds and move to a new loaction. Touching the enemies leads to failure. 
+
+Try the demo [here](https://knightphantom.itch.io/electricman).
